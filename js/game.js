@@ -102,3 +102,4 @@ zoneLinks.forEach((link) => link.addEventListener('click', () => {
   if (link.hash === '#contacto') showToast('¡Zona extra desbloqueada! Hablemos de tu próxima misión.');
 }));
 
+
