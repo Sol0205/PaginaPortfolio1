@@ -1,268 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
-  <title>Portafolio Sol</title>
-  <link
-    rel="stylesheet"
-    href="css/normalize.css"
-  >
-  <link
-    rel="stylesheet"
-    href="css/estilos.css"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11121b">
+  <meta name="description" content="Portfolio interactivo de Sol Margarit, desarrolladora web Full Stack y estudiante de Ciencia de Datos.">
+  <title>Sol Margarit — Portfolio / Player One</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/game.js" defer></script>
 </head>
-
 <body>
-  <header class="hero">
-    <div class="container">
-      <nav class="nav">
-        <a
-          href="mailto:solmargarit3@gmail.com"
-          class="nav__items nav__items--cta"
-        >Contactame ahora.</a>
-        <a
-          href="#"
-          class="nav__items"
-        >Sobre mí.</a>
-        <a
-          href="#"
-          class="nav__items"
-        >Proyectos.</a>
-      </nav>
-
-      <section class="hero__container">
-        <div class="heroo__texts">
-          <h1 class="hero__title">Hola, soy Sol. <br>Full Stack Web Developer</h1>
-          <h2 class="hero__subtitle">Tranformando ideas en realidades</h2>
-          <a
-            href="#"
-            class="hero__cta"
-          >Contactame ahora.</a>
-        </div>
-      </section>
-    </div>
-
-    <div
-      class="hero__wave"
-      style="overflow: hidden;"
-    ><svg
-        viewBox="0 0 500 150"
-        preserveAspectRatio="none"
-        style="height: 100%; width: 100%;"
-      >
-        <path
-          d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-          style="stroke: none; fill: #fff;"
-        ></path>
-      </svg>
-    </div>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Sol Margarit, inicio"><span class="brand-mark">SM</span><span>SOL MARGARIT <small>PLAYER ONE</small></span></a>
+    <div class="topbar-status"><span class="status-dot"></span> DISPONIBLE PARA NUEVAS AVENTURAS</div>
+    <a class="top-contact" href="mailto:solmargarit3@gmail.com">HABLEMOS <span>↗</span></a>
   </header>
 
   <main>
-    <section class="presentation container">
-      <img
-        src="Prueba4/Sol.png"
-        alt="Imagen de Sol"
-        class="presentation__picture"
-      >
-      <h2 class="subtitle">Mi nombre es: María Sol Margarit</h2>
-      <p class="presentation__copy">Algo tengo que pensar para poner acá 1</p>
-      <a
-        href="#"
-        class="presentation__cta"
-      >Contactame ahora</a>
-    </section>
-
-    <section class="about container">
-
-      <div class="about__texts">
-        <h2 class="subtitle">Mis habilidades</h2>
-        <p class="about__paragraph">Algo tengo que pensar para poner acá 2</p>
-        <p class="about__paragraph">Algo tengo que pensar para poner acá 3</p>
-      </div>
-
-      <figure class="about__img">
-        <img
-          src="Prueba4/Notebook-9-Pro-3.jpeg"
-          class="about__picture"
-          alt="computer"
-        >
-      </figure>
-
-      <figure class="about__img about__img--left">
-        <img
-          src="Prueba4/undraw.svg"
-          class="about__picture"
-          alt="dibujo de una mujer con la computadora"
-        >
-      </figure>
-
-      <div class="about__texts">
-        <h2 class="subtitle">Sobre mi trabajo</h2>
-        <p class="about__paragraph">Algo tengo que pensar para poner acá 4</p>
-        <p class="about__paragraph">Algo tengo que pensar para poner acá 5</p>
-      </div>
-
-    </section>
-
-    <section class="projects">
-      <div class="container">
-        <h2 class="subtitle">Mis proyectos</h2>
-        <div class="projects__grid">
-
-          <article class="projects__item">
-            <img
-              src="prueba4/img1.jpg"
-              class="projects__img"
-              alt="computer"
-            >
-            <div class="projects__hover">
-              <h2 class="projects__title">Proyecto</h2>
-              <i class="far fa-file-alt projects__icon"></i>
-            </div>
-          </article>
-
-          <article class="projects__item">
-            <img
-              src="prueba4/img2.jpg"
-              class="projects__img"
-              alt="computer"
-            >
-            <div class="projects__hover">
-              <h2 class="projects__title">Proyecto</h2>
-              <i class="far fa-file-alt projects__icon"></i>
-            </div>
-          </article>
-
-          <article class="projects__item">
-            <img
-              src="prueba4/img3.jpg"
-              class="projects__img"
-              alt="computer"
-            >
-            <div class="projects__hover">
-              <h2 class="projects__title">Proyecto</h2>
-              <i class="far fa-file-alt projects__icon"></i>
-            </div>
-          </article>
-
-          <article class="projects__item">
-            <img
-              src="prueba4/img4.jpg"
-              class="projects__img"
-              alt="computer"
-            >
-            <div class="projects__hover">
-              <h2 class="projects__title">Proyecto</h2>
-              <i class="far fa-file-alt projects__icon"></i>
-            </div>
-          </article>
-
-          <article class="projects__item">
-            <img
-              src="prueba4/img5.jpg"
-              class="projects__img"
-              alt="computer"
-            >
-            <div class="projects__hover">
-              <h2 class="projects__title">Proyecto</h2>
-              <i class="far fa-file-alt projects__icon"></i>
-            </div>
-          </article>
-
+    <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span>01</span> PORTFOLIO INTERACTIVO <span class="eyebrow-line"></span> BUENOS AIRES, AR</p>
+        <h1 id="hero-title">Hola, soy<br><span class="hero-name">Sol Margarit<span class="cursor">_</span></span></h1>
+        <p class="hero-role">Desarrolladora Web <span>Full Stack</span><br>y estudiante de Ciencia de Datos.</p>
+        <p class="hero-intro">Me entusiasma aprender algo nuevo cada día, resolver desafíos con creatividad y construir tecnología en equipo. Este es mi mundo: exploralo a tu ritmo.</p>
+        <p class="experience-note">Todavía no trabajé profesionalmente en desarrollo. Los proyectos de este portfolio son parte de mi formación y práctica personal.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#misiones">EMPEZAR A EXPLORAR <span>↓</span></a>
+          <a class="button button-quiet" href="#contacto">CONECTAR <span>↗</span></a>
         </div>
       </div>
+      <div class="hero-art" aria-label="Avatar ilustrado de Sol">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="pixel-spark spark-a">✳</div><div class="pixel-spark spark-b">✦</div>
+        <div class="avatar-frame avatar-illustration" role="img" aria-label="Avatar ilustrado con las iniciales de Sol Margarit"><span class="avatar-stars" aria-hidden="true">✳</span><span class="avatar-initials" aria-hidden="true">SM</span><span class="avatar-caption" aria-hidden="true">CREATIVIDAD<br>EN CONSTRUCCIÓN</span><span class="avatar-tag">LVL 01 · SOL</span></div>
+        <div class="float-card card-code"><span class="tiny-label">FORMACIÓN</span><strong>Desarrollo Web<br>Full Stack</strong><i>◈</i></div>
+        <div class="float-card card-location"><span class="pin">⌖</span><span>Buenos Aires<br><small>Argentina</small></span></div>
+      </div>
+      <div class="hero-footer"><span>SCROLL PARA SEGUIR JUGANDO</span><span class="scroll-cue">↓</span><span>01 / 04</span></div>
     </section>
 
-    <section class="testimony container">
-      <h2 class="subtitle">¿Qué dicen de nosotros?</h2>
+    <aside class="game-hud" aria-label="Progreso de exploración">
+      <div class="hud-label"><span>EXPLORACIÓN</span><strong id="progress-label">01 / 04 ZONAS</strong></div>
+      <div class="progress-track"><span id="progress-fill"></span></div>
+    </aside>
 
-      <div class="testimony__grid">
-      
-        <article class="testimony__item">
-          <div class="testimony__person">
-            <img
-              src="Prueba4/testimony.jpg"
-              class="testimony__img"
-              alt="Foto de hombre"
-            >
-            <div class="testimony__texts">
-              <h3 class="testimony__name">Angel</h3>
-              <p class="testimony__verification">Creadora de Apple</p>
-            </div>
-          </div>
-          <p class="testinomy__review">Algo tengo que pensar para poner acá 6</p>
-        </article>
-        <article class="testimony__item">
-          <div class="testimony__person">
-            <img
-              src="Prueba4/testimony.jpg"
-              class="testimony__img"
-              alt="Foto de hombre"
-            >
-            <div class="testimony__texts">
-              <h3 class="testimony__name">Alex</h3>
-              <p class="testimony__verification">Creadora de Apple</p>
-            </div>
-          </div>
-          <p class="testinomy__review">Algo tengo que pensar para poner acá 7</p>
-        </article>
+    <nav class="zone-nav" aria-label="Mapa del portfolio">
+      <a class="zone-link active" href="#inicio" aria-label="Zona 1: Inicio"><span>01</span><i></i></a>
+      <a class="zone-link" href="#misiones" aria-label="Zona 2: Misiones"><span>02</span><i></i></a>
+      <a class="zone-link" href="#habilidades" aria-label="Zona 3: Habilidades"><span>03</span><i></i></a>
+      <a class="zone-link" href="#formacion" aria-label="Zona 4: Formación"><span>04</span><i></i></a>
+      <a class="zone-link" href="#contacto" aria-label="Zona extra: Contacto"><span>↗</span><i></i></a>
+    </nav>
 
+    <section class="missions section-shell" id="misiones" aria-labelledby="missions-title">
+      <div class="section-heading"><p class="eyebrow"><span>02</span> PROYECTOS DE FORMACIÓN</p><h2 id="missions-title">Lo que construí <span>aprendiendo.</span></h2><p>Proyectos personales y académicos: cada uno muestra herramientas que fui practicando.</p></div>
+      <div class="quest-board">
+        <div class="quest-board-head"><span>QUEST LOG</span><span>3 MISIONES <b>◆</b></span></div>
+        <button class="quest-card quest-violet" type="button" data-project="games">
+          <span class="quest-number">PROYECTO 001</span><span class="quest-icon">▣</span><span class="quest-info"><strong>Catálogo de videojuegos</strong><small>Proyecto individual de formación Full Stack</small></span><span class="quest-status">COMPLETADO <b>↗</b></span>
+        </button>
+        <button class="quest-card quest-cyan" type="button" data-project="nextnest">
+          <span class="quest-number">QUEST 002</span><span class="quest-icon">⌂</span><span class="quest-info"><strong>NextNest</strong><small>Aplicación web · Next.js + NestJS</small></span><span class="quest-status">EN PROGRESO <b>↗</b></span>
+        </button>
+        <button class="quest-card quest-orange" type="button" data-project="finance">
+          <span class="quest-number">QUEST 003</span><span class="quest-icon">⌁</span><span class="quest-info"><strong>AI Finance</strong><small>Market brief · Datos + sentimiento</small></span><span class="quest-status">COMPLETADA <b>↗</b></span>
+        </button>
       </div>
+      <div class="collectible" id="collectible" role="button" tabindex="0" aria-label="Encontraste un coleccionable secreto"><span>✦</span><small>¿VISTE ESO?</small></div>
+      <p class="section-hint">PULSÁ UNA MISIÓN PARA VER SUS DETALLES <span>↗</span></p>
+    </section>
 
+    <section class="skills section-shell" id="habilidades" aria-labelledby="skills-title">
+      <div class="section-heading"><p class="eyebrow"><span>03</span> INVENTARIO</p><h2 id="skills-title">Herramientas <span>equipadas.</span></h2><p>Un inventario que crece con cada proyecto y cada desafío.</p></div>
+      <div class="inventory-grid">
+        <article class="inventory-card inventory-wide"><span class="inventory-icon">&lt;/&gt;</span><div><p class="tiny-label">01 · CÓDIGO · SEGÚN MI CV</p><h3>Lenguajes</h3><div class="chips"><span>JavaScript</span><span>HTML5</span><span>CSS</span><span>Java</span><span>C++</span><span>Ruby</span></div></div></article>
+        <article class="inventory-card"><span class="inventory-icon">▦</span><p class="tiny-label">02 · FRAMEWORKS Y BIBLIOTECAS</p><h3>Desarrollo</h3><div class="chips"><span>React</span><span>Spring Boot</span><span>Hibernate</span><span>Express.js</span><span>Bootstrap</span><span>Drools</span></div></article>
+        <article class="inventory-card"><span class="inventory-icon">◉</span><p class="tiny-label">03 · BASES DE DATOS</p><h3>Persistencia</h3><div class="chips"><span>MySQL</span><span>PostgreSQL</span></div></article>
+        <article class="inventory-card"><span class="inventory-icon">⌘</span><p class="tiny-label">04 · AUTOMATIZACIÓN Y DESPLIEGUE</p><h3>Colaboración y calidad</h3><div class="chips"><span>Git</span><span>Despliegue continuo</span><span>Automatización de pruebas</span><span>Optimización web</span><span>Depuración avanzada de JavaScript</span></div></article>
+        <article class="inventory-card"><span class="inventory-icon">☁</span><p class="tiny-label">05 · HERRAMIENTAS Y SISTEMAS</p><h3>Otras herramientas</h3><div class="chips"><span>AWS Cloud</span><span>Trello</span><span>Bitrix</span><span>MacOS</span><span>Ubuntu</span></div></article>
+        <article class="inventory-card"><span class="inventory-icon">▤</span><p class="tiny-label">06 · OFIMÁTICA</p><h3>Productividad</h3><div class="chips"><span>Word</span><span>Excel</span><span>OneDrive</span><span>Google Docs</span><span>Hojas de cálculo</span></div></article>
+      </div>
+      <div class="soft-skills"><span>HABILIDADES INTERPERSONALES</span><p>Actitud positiva <b>·</b> Comunicación efectiva <b>·</b> Adaptabilidad <b>·</b> Trabajo en equipo <b>·</b> Aprendizaje continuo</p></div>
+    </section>
+
+    <section class="education section-shell" id="formacion" aria-labelledby="education-title">
+      <div class="section-heading"><p class="eyebrow"><span>04</span> FORMACIÓN ACADÉMICA</p><h2 id="education-title">Cada curso, <span>un nuevo poder.</span></h2><p>Mi recorrido de aprendizaje hasta acá.</p></div>
+      <div class="timeline">
+        <article class="timeline-item current"><span class="timeline-dot">✦</span><div class="timeline-meta">EN CURSO · UNIVERSIDAD SIGLO 21</div><h3>Licenciatura en Ciencia de Datos</h3><p>En curso.</p><span class="timeline-xp">+ EN PROGRESO</span></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">FINALIZADA · OCTUBRE DE 2024 · UNIVERSIDAD TECNOLÓGICA NACIONAL</div><h3>Tecnicatura Universitaria Superior en Programación</h3><p>Duración: 2 años.</p></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">FINALIZADO · AGOSTO DE 2024 · UNIVERSIDAD TECNOLÓGICA NACIONAL</div><h3>Inglés Senior Two</h3><p>Duración: 4 meses.</p></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">FINALIZADO · MARZO DE 2024 · ASOCIACIÓN ARGENTINA DE CULTURA INGLESA (AACI)</div><h3>Inglés Senior One</h3><p>Duración: 4 meses · Nivel de inglés A2, en proceso de mejora hacia B1.</p></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">FINALIZADO · SEPTIEMBRE DE 2023 · KHAN ACADEMY</div><h3>Curso de Ciencias de la Computación</h3><p>Duración: 9 meses.</p></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">FINALIZADO · ENERO DE 2023 · ARGENTINA PROGRAMA</div><h3>Programación, testing y habilidades digitales</h3><p>Duración: 7 meses.</p></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">FINALIZADO · MARZO DE 2022 · HENRY</div><h3>Desarrollador Web Full Stack</h3><p>Duración: 4 meses · Formación en desarrollo web Full Stack.</p></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">FINALIZADO · 2021 · INSTITUTO EDUCATIVO ARGENTINO (IEA)</div><h3>Bachiller con orientación en Gestión y Administración</h3><p>Especializado en Comercio Exterior · Buenos Aires, Argentina.</p></article>
+        <article class="timeline-item"><span class="timeline-dot">✧</span><div class="timeline-meta">HASTA 5.º AÑO · 2020 · ESCUELA ESTUDIANTIL SECUNDARIA TÉCNICA N.º 2, FONAVI</div><h3>Trayecto técnico electromecánico</h3><p>Buenos Aires, Argentina.</p></article>
+      </div>
+      <article class="community-card"><p class="eyebrow">COLABORACIÓN EDUCATIVA · HENRY</p><h3>Full-Stack Teaching Assistant</h3><p>Jornada parcial · enero de 2022 a diciembre de 2023 · Provincia de Buenos Aires.</p><ul><li>Acompañé a estudiantes en sus primeros pasos del curso Full Stack.</li><li>Coordiné grupos de estudio y promoví Pair Programming.</li><li>Ayudé a resolver ejercicios y propuse mejoras para los procesos del bootcamp.</li></ul><p class="community-note">Fue una experiencia de acompañamiento educativo durante mi formación, no un puesto profesional como desarrolladora.</p></article>
+      <div class="language-badge"><span>IDIOMAS</span><strong>Español</strong><small>NATIVO</small><i></i><strong>English</strong><small>A2 · EN PROGRESO</small></div>
+    </section>
+
+    <section class="contact section-shell" id="contacto" aria-labelledby="contact-title">
+      <div class="contact-glow"></div><p class="eyebrow"><span>EXTRA</span> NUEVA PARTIDA</p><h2 id="contact-title">¿Creamos algo<br><span>increíble?</span></h2><p>Siempre hay lugar para una buena idea, un nuevo equipo y el próximo desafío.</p>
+      <a class="button button-primary contact-button" href="mailto:solmargarit3@gmail.com">ESCRIBIME <span>↗</span></a>
+      <div class="contact-details"><a href="mailto:solmargarit3@gmail.com">solmargarit3@gmail.com</a><a href="tel:+541125723013">+54 11 2572 3013</a><a href="https://www.linkedin.com/in/solmargarit/" target="_blank" rel="noreferrer">LinkedIn ↗</a><span>Buenos Aires, Argentina</span></div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__grid">
-      <nav class="nav nav--footer">
-        <a class="nav__items nav__items--footer" href="">Inicio.</a>
-        <a class="nav__items nav__items--footer" href="">Sobre mi.</a>
-        <a class="nav__items nav__items--footer" href="">Mis skills.</a>
-        <a class="nav__items nav__items--footer" href="">Proyectos.</a>
-      </nav>
+  <footer class="site-footer"><a class="brand" href="#inicio"><span class="brand-mark">SM</span><span>SOL MARGARIT <small>PLAYER ONE</small></span></a><span>HECHO CON CURIOSIDAD Y MUCHOS CAFÉS ☕</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
 
-    <div id="burger">
-      <span class="mean"></span>
-    </div>
-
-      <section class="footer__contact">
-        <h3 class="footer__title">Contactame</h3>
-        <div class="footer__icons">
-          
-          <span class="footer__container-icons">
-            <a
-              class="fab fa-whatsapp footer__icon"
-              href="https://wa.me/5491125723013"
-            ></a>
-          </span>
-
-          <span class="footer__container-icons">
-            <a
-              class="fab fa-facebook-f footer__icon"
-              href="https://www.facebook.com/sol.margarit.7/"
-            ></a>
-          </span>
-
-          <span class="footer__container-icons">
-            <a
-              class="fab fa-instagram footer__icon"
-              href="https://www.instagram.com/sol_02_05__/"
-            ></a>
-          </span>
-
-        </div>
-      </section>
-    
-    </div>
-  </footer>
-
-  <script
-    src="https://kit.fontawesome.com/19d69ed341.js"
-    crossorigin="anonymous"
-  ></script>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Cerrar">×</button><p class="eyebrow" id="dialog-kicker">QUEST</p><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-tech" id="dialog-tech"></div><a id="dialog-link" class="button button-primary" href="#" target="_blank" rel="noreferrer">VER PROYECTO <span>↗</span></a>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
-
 </html>
